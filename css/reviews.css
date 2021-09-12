@@ -65,3 +65,90 @@
     background: #de2a1b;
     color: #fff;
 }
+
+.header__fon {
+    padding: 100px 0;
+    background: #ff5252;
+}
+
+.header__fon_h1 {
+    font-size: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/* header end */
+/* ************************************************************************** */
+/* main__video start */
+.main__video {
+    margin: 100px 0;
+}
+
+.main__video_box video {
+    width: 100%;
+    height: auto !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ************************************************************************************************** */
+/* ************************************media********************************* */
+
+@media(max-width:991px) {
+    .main__video_box {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .main__video_box {
+        margin-left: 15px;
+    }
+}
+
+@media(max-width:575px) {
+    .main__video_box {
+        margin-left: 0;
+    }
+}
+
+@media(max-width:520px) {}
+
+@media(max-width:414px) {}
+
+@media(max-width:320px) {}
