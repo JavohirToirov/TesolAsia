@@ -180,8 +180,54 @@
     font-weight: 500;
 }
 
+.main__login-input_box_button {
+    background: #ff5252;
+    border: 1px solid #ff5252;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Montserrat;
+    font-style: normal;
+    padding: .3em 1em;
+    line-height: 1.7em !important;
+    border-radius: 3px;
+    transition-duration: .2s;
+    color: #fff;
+    text-transform: uppercase;
+    float: right;
+    display: flex;
+    align-items: center;
+}
 
+.main__login-input_box_button_icon {
+    display: none !important;
+    padding-left: 10px;
+}
 
+.main__login-input_box_button:hover .main__login-input_box_button_icon {
+    display: block !important;
+}
+
+.main__login_text_span {
+    color: #3366ff;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.main__login_text_p {
+    color: #800080;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+
+.main__login_text {
+    padding-top: 100px;
+}
 
 
 
