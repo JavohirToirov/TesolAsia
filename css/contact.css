@@ -122,13 +122,63 @@
 /**************************************************** header end ***********************************/
 /* ******************************************************************************************************* */
 /* *****************************************main__login start****************************** */
+.text_email {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+}
 
+.text {
+    padding-left: 15px;
+}
 
+.main__login_icon-box_link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    text-decoration: none;
+}
 
+.main__login_icon-box_icon {
+    font-size: 30px;
+    color: #ff5252;
+}
 
+.main__login_icon-box {
+    margin-bottom: 40px;
+}
 
+.main__login {
+    margin-top: 100px;
+}
 
+.input__main,
+.textarea__main {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px 0 15px 15px;
+    background: #eee;
+    color: #999;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
 
+.main__login-input_box_p {
+    margin-bottom: 0;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+}
 
 
 
