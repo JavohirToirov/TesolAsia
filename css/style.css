@@ -494,14 +494,6 @@
 }
 
 .footer__block_box_button {
-    font-weight: 600;
-    font-family: Montserrat;
-    font-style: normal;
-    padding: 18px 34px;
-    font-size: 14px;
-    border-radius: 4px;
-    letter-spacing: 5px;
-    color: #fff;
     outline: none;
     background-color: #579A5C;
     border: 1px solid #579A5C;
@@ -510,6 +502,27 @@
     justify-content: center;
     margin: 50px auto;
     transition: .3s !important;
+    padding: 18px 34px;
+    font-weight: 600;
+    color: #fff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.footer__block_box_button_link {
+    font-weight: 600;
+    color: #fff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 14px;
+    border-radius: 4px;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+
+.footer__block_box_button_link:hover {
+    color: #fff;
 }
 
 .footer__block_box_button_icon {
@@ -944,6 +957,7 @@ ul {
     .main__courses {
         min-width: 320px;
     }
+
     .footer__block_box_h1 {
         font-size: 25px;
     }
