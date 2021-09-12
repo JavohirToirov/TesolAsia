@@ -886,6 +886,10 @@ ul {
     .footer__lastBox_p {
         text-align: center;
     }
+
+    .main__courses-box_thirst {
+        padding: 36px;
+    }
 }
 
 @media(max-width:520px) {
