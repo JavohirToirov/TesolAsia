@@ -944,5 +944,8 @@ ul {
     .main__courses {
         min-width: 320px;
     }
+    .footer__block_box_h1 {
+        font-size: 25px;
+    }
 
 }
