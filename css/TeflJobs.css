@@ -205,9 +205,25 @@
     }
 }
 
-@media(max-width:767px) {}
+@media(max-width:767px) {
 
-@media(max-width:575px) {}
+    .main__text_1_p,
+    .main__text_1_span,
+    .main__text_2_p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:575px) {
+    .header__fon_text {
+        padding-top: 30px;
+        font-size: 10px;
+    }
+
+    .main__text {
+        padding: 0 15px 0 15px;
+    }
+}
 
 @media(max-width:520px) {}
 
