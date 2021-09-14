@@ -966,4 +966,19 @@ ul {
         font-size: 25px;
     }
 
+    .header__fon_h1 {
+        font-size: 20px;
+    }
+
+    .header__fon_p {
+        font-size: 10px;
+    }
+
+    .header__fon_pp {
+        font-size: 14px;
+    }
+
+    .header__fon_text {
+        font-size: 11px;
+    }
 }
