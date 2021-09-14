@@ -146,9 +146,27 @@
     margin-bottom: 100px;
 }
 
+/* main__text end */
+/* ************************************************************************ */
+/* main__degree start */
 
+.main__degree_img {
+    width: 800px;
+    height: auto;
+}
 
+.main__degree {
+    width: 100%;
+}
 
+.main__degree_p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
 
 
 
@@ -202,6 +220,10 @@
 
     .main__text_1 {
         margin: 100px 0 50px 0;
+    }
+
+    .main__degree_img {
+        width: 100%;
     }
 }
 
