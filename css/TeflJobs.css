@@ -168,25 +168,108 @@
     padding-bottom: 40px;
 }
 
+/* main__degree end */
+/* ************************************************** */
+/* main__box start */
 
+.main__box {
+    margin: 100px 0;
+    padding: 54px 0;
+    background-color: #d6d6d6;
+}
 
+.main__box_logo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
+.main__box_logo_img {
+    width: 300px;
+    margin: 0 auto;
+}
 
+.main__box_logo_p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
 
+/* main__box end */
+/* ************************************************************* */
+/* main__offer start */
 
+.main__offer_text_h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
 
+.main__offer_text_img {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
 
+.main__offer_text_p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
 
+.main__offer_text_span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
 
+.main__offer_text_li {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
 
+ol,
+ul {
+    padding-left: 0;
+}
 
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
+.main__offer_text_h5 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
 
-
-
-
-
-
+.main__offer {
+    margin-bottom: 100px;
+}
+/* main__offer end */
+/* ////////////////////////////////////////////////////////////////////////////////// */
 
 /* ******************************************media**************************************** */
 @media(max-width:991px) {
@@ -245,6 +328,10 @@
     .main__text {
         padding: 0 15px 0 15px;
     }
+
+    .main__offer_text {
+        padding: 0 15px 0 15px;
+    }
 }
 
 @media(max-width:520px) {}
@@ -257,6 +344,12 @@
     .header__fon_text {
         padding-top: 16px;
         font-size: 13px;
+    }
+
+    .main__offer_text_p,
+    .main__offer_text_h5,
+    .main__box_logo_p {
+        font-size: 14px;
     }
 }
 
