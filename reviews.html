@@ -374,10 +374,10 @@
                     </div>
                 </div>
             </div>
-            <button class="footer__block_box_button"><a class="footer__block_box_button_link"
+            <button class="footer__block_box_button wow fadeInRightBig" data-wow-duration="2s"><a class="footer__block_box_button_link"
                     href="contact.html">Contact Us</a><i
                     class="footer__block_box_button_icon fas fa-arrow-right"></i></button>
-            <div class="footer__block_img">
+            <div class="footer__block_img wow rotateIn" data-wow-duration="3s">
                 <img class="footer__block_img_logo" src="img/logo2.png" alt="">
             </div>
             <div class="footer__block_icon d-flex">
@@ -392,7 +392,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer__menu">
+        <div class="footer__menu wow zoomInDown" data-wow-duration="2s">
             <div class="container">
                 <nav class="footer__menu_nav">
                     <ul class="footer__menu_nav_ul d-flex justify-content-around flex-wrap">
@@ -448,7 +448,13 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
-        new WOW().init();
+        new WOW({
+            boxClass: 'wow', // default
+            animateClass: 'animated', // default
+            offset: 0, // default
+            mobile: false, // default
+            live: true // default
+        }).init();
     </script>
     <script src="js/main.js"></script>
 </body>
