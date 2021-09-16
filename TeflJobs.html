@@ -75,7 +75,7 @@
         <div class="header__fon">
             <div class="container text-center">
                 <div class="row row-ml justify-content-center">
-                    <div class="col-lg-8 col-md-10 col-sm-11 col-12 col-pd">
+                    <div class="col-lg-8 col-md-10 col-sm-11 col-12 col-pd wow bounceInDown" data-wow-duration="1s">
                         <p class="header__fon_p">QUALIFYING STUDENTS SINCE 1993</p>
                         <h1 class="header__fon_h1">TEFL Jobs</h1>
                         <p class="header__fon_text">Employers seek out INTESOL graduates!</p>
@@ -118,7 +118,7 @@
     <main class="main__degree">
         <div class="container text-center">
             <p class="main__degree_p">Online Teaching Positions</p>
-            <img class="main__degree_img"
+            <img class="main__degree_img wow zoomIn" data-wow-duration="2s"
                 src="https://intesoltesoltraining.com/wp-content/uploads/2020/09/TeachingEmployers3-883x1030.jpg"
                 alt="">
         </div>
@@ -127,7 +127,7 @@
     <main class="main__box">
         <div class="container">
             <div class="main__box_logo">
-                <img class="main__box_logo_img" src="img/icon_6.png" alt="">
+                <img class="main__box_logo_img wow flipInY" data-wow-duration="2s" src="img/icon_6.png" alt="">
                 <p class="main__box_logo_p">INTESOL recommends ESL Starter, the award winning TEFL/TESOL recruitment
                     company. Please contact them at www.eslstarter.com.</p>
             </div>
@@ -231,9 +231,9 @@
               </div>
             </div>
           </div>
-          <button class="footer__block_box_button"><a class="footer__block_box_button_link" href="contact.html">Contact Us</a><i
+          <button class="footer__block_box_button wow fadeInRightBig" data-wow-duration="2s"><a class="footer__block_box_button_link" href="contact.html">Contact Us</a><i
               class="footer__block_box_button_icon fas fa-arrow-right"></i></button>
-          <div class="footer__block_img">
+          <div class="footer__block_img wow rotateIn" data-wow-duration="3s">
             <img class="footer__block_img_logo" src="img/logo2.png" alt="">
           </div>
           <div class="footer__block_icon d-flex">
@@ -248,7 +248,7 @@
             </div>
           </div>
         </div>
-        <div class="footer__menu">
+        <div class="footer__menu wow zoomInDown" data-wow-duration="2s">
           <div class="container">
             <nav class="footer__menu_nav">
               <ul class="footer__menu_nav_ul d-flex justify-content-around flex-wrap">
@@ -304,7 +304,13 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
-        new WOW().init();
+        new WOW({
+            boxClass: 'wow', // default
+            animateClass: 'animated', // default
+            offset: 0, // default
+            mobile: false, // default
+            live: true // default
+        }).init();
     </script>
     <script src="js/main.js"></script>
 </body>
