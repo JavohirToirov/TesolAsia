@@ -769,7 +769,7 @@ ul {
         position: absolute;
         top: 200px;
         left: 33px;
-        padding: 70px 20px 20px 20px;
+        padding: 70px 30px 20px 30px;
     }
 
     .main__block_text_p,
@@ -782,7 +782,7 @@ ul {
     }
 
     .main__courses-box_thirst {
-        padding: 15px;
+        padding: 30px;
     }
 
     .main__courses-box_thirst-ul-li {
