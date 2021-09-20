@@ -31,9 +31,11 @@
 .margin_auto {
     margin: 0 auto;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
+
 /* ************************************* */
 /* ******************************header start******************************* */
 
@@ -406,6 +408,10 @@ ul {
 
 /* *******************************************media********************************************* */
 @media(max-width:991px) {
+    .nav-item {
+        padding-bottom: 10px;
+    }
+
     .navbar-collapse {
         flex-basis: 100%;
         flex-grow: 1;
@@ -565,5 +571,17 @@ ul {
 
     .footer__block_box_h1 {
         font-size: 25px;
+    }
+
+    .header__dropdown {
+        width: 100% !important;
+    }
+
+    .dropdown-item {
+        padding: .25rem 6px;
+    }
+
+    .dropdown-menu {
+        font-size: 14px;
     }
 }

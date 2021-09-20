@@ -369,6 +369,10 @@ ul {
 /* ****************************************************************************************************** */
 
 @media(max-width:991px) {
+    .nav-item {
+        padding-bottom: 10px;
+    }
+
     .navbar-collapse {
         flex-basis: 100%;
         flex-grow: 1;
@@ -554,5 +558,17 @@ ul {
 
     .header__fon_img_h1 {
         font-size: 37px;
+    }
+
+    .header__dropdown {
+        width: 100% !important;
+    }
+
+    .dropdown-item {
+        padding: .25rem 6px;
+    }
+
+    .dropdown-menu {
+        font-size: 14px;
     }
 }
