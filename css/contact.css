@@ -70,11 +70,20 @@ body {
 }
 
 .header__fon {
-    background: rgb(255, 250, 250);
-    background: radial-gradient(circle, rgba(255, 250, 250, 1) 0%, rgba(255, 82, 82, 1) 0%);
-    padding: 200px 0;
-    cursor: pointer;
-    border-radius: 0 0 250px 0;
+    padding-top: 150px;
+    width: 100%;
+    height: 100vh;
+    background: #136285 url(../img/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+
+.hader__wave {
+    position: absolute;
+    width: 100%;
+    bottom: -100px;
 }
 
 .header__fon_p {
@@ -243,11 +252,21 @@ body {
 /* footer__block start */
 
 .footer__block {
-    background: rgb(255, 250, 250);
-    background: radial-gradient(circle, rgba(255, 250, 250, 1) 0%, rgba(255, 82, 82, 1) 0%);
-    padding: 100px 0 0 0;
-    border-radius: 250px 0 0 0;
+    width: 100%;
+    height: 100%;
+    background: #136285 url(../img/london.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    position: relative;
 }
+
+.footer__wave {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
 
 .footer__block_box {
     display: flex;
@@ -257,6 +276,7 @@ body {
 }
 
 .footer__block_box_span {
+    padding-top: 400px;
     font-size: 25px;
     color: #fff;
     font-weight: 700;
@@ -474,6 +494,7 @@ ul {
 
     .footer__block_box_span {
         font-size: 20px;
+        padding-top: 256px;
     }
 
     .footer__block_box_h1 {
@@ -482,6 +503,10 @@ ul {
 }
 
 @media(max-width:767px) {
+    .header__fon {
+        padding: 90px 0;
+    }
+
     .main__login_icon {
         display: flex;
         flex-wrap: wrap;
@@ -506,12 +531,20 @@ ul {
 }
 
 @media(max-width:575px) {
+    .header__fon {
+        padding: 100px 0px;
+    }
+
     .footer__block {
         border-radius: 0;
     }
 
     .footer__lastBox_p {
         text-align: center;
+    }
+
+    .footer__block_box_span {
+        padding-top: 170px;
     }
 }
 
@@ -537,9 +570,17 @@ ul {
     .footer__block_box_h1 {
         font-size: 32px;
     }
+
+    .header__fon {
+        padding: 80px 0;
+    }
 }
 
 @media(max-width:320px) {
+    .header__fon {
+        padding: 170px 0 0 0;
+    }
+
     .header__fon_h1 {
         font-size: 20px;
         padding-top: 20px;
