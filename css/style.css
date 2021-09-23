@@ -73,7 +73,7 @@ body {
 .header__fon {
     width: 100%;
     height: 100vh;
-    background: #136285 url(../img/london__home.png);
+    background: #26b0ebcd url(../img/london__home.png);
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
@@ -475,7 +475,7 @@ body {
 .footer__block {
     width: 100%;
     height: 100%;
-    background: #136285 url(../img/london.jpg);
+    background: #26b0ebcd url(../img/london.jpg);
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
@@ -939,6 +939,11 @@ ul {
 
     .main__courses-box_thirst {
         padding: 36px;
+    }
+
+    .hader__wave,
+    .footer__wave {
+        display: none;
     }
 }
 
